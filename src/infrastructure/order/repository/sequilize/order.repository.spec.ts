@@ -111,7 +111,7 @@ describe("Order repository test", () => {
             product.name,
             product.price,
             product.id,
-            2
+            10
         );
 
         const orderToUpdate = new Order("123", "123", [orderItem2]);
